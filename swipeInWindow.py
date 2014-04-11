@@ -4,7 +4,8 @@ import sys, time, getopt, os, subprocess
 from Quartz.CoreGraphics import * # imports all of the top-level symbols in the module
 
 usageExit = '''%s
-Swipe within an OSX window. You must specify relative, not absolute coordinates. 
+Swipe within an OSX window. You must specify relative, not absolute, coordinates. Relative coordinates are < 1 and represent
+the percentage of the screen relative to the upper left corner. 
 
 Usage: %s <windowName> <startX> <startY> <endX> <endY> 
 
