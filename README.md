@@ -10,6 +10,13 @@ to those coordinates.
 This script can be used to get around the current bug where dragging is broken in Xcode 5.1 + UIAutomation + iOS 7.1 Simulator.
 See: http://stackoverflow.com/questions/18792965/uiautomations-draginsidewithoptions-has-no-effect-on-ios7-simulator
 
+## Requirements
+
+* OSX
+* Assistive Devices and Applications enabled
+** OSX 10.9 - System Preferences > Security & Privacy > Privacy > Accessibility > Check "Terminal" and "Accessibility Inspector"
+** OSX 10.8 - System Preferences > Accessibility > Check "Enable access for assistive devices 
+
 ## Usage
 
 Swipe within an OSX window. You must specify relative, not absolute, coordinates. Relative coordinates are < 1 and represent

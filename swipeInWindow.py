@@ -66,8 +66,8 @@ def activateWindow(windowName):
     print "Moving window '%s' to foreground" % windowName
     cmd="""
 osascript<<END
-    tell application "%s"
-    	activate
+    tell application "System Events" to tell application process "%s"
+        activate
     end tell
 """ % windowName
     os.system(cmd)    
