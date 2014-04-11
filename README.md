@@ -16,7 +16,7 @@ Swipe within an OSX window. You must specify relative, not absolute, coordinates
 
 Usage: 
 
-./swipeInWindow.py <windowName> <startX> <startY> <endX> <endY> 
+./swipeInWindow.py \<windowName\> \<startX\> \<startY\> \<endX\> \<endY\> 
 
 Example: 
 
