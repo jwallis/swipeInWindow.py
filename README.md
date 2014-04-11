@@ -16,7 +16,7 @@ http://stackoverflow.com/questions/18792965/uiautomations-draginsidewithoptions-
 * OSX
 * Assistive Devices and Applications enabled
    * OSX 10.9 - System Preferences > Security & Privacy > Privacy > Accessibility > Check "Terminal" and "Accessibility Inspector"
-   * OSX 10.8 - System Preferences > Accessibility > Check "Enable access for assistive devices
+   * OSX 10.8 - System Preferences > Accessibility > Check "Enable access for assistive devices"
 
 ## Usage
 
