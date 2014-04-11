@@ -4,7 +4,8 @@ swipeInWindow.py
 A silly little python script that will allows swiping within an OSX window using mouse events and Applescript. 
 
 It accomplishes this by moving the window to (0,0) and bringing it to the foreground using Applescript. Then calculates 
-the coordinates to swipe using the window size and relative coordinates.  
+the coordinates to swipe using the window size and relative coordinates. Then it uses python Quartz bindings to send mouse events 
+to those coordinates. 
 
 This script can be used to get around the current bug where dragging is broken in Xcode 5.1 + UIAutomation + iOS 7.1 Simulator.
 See: http://stackoverflow.com/questions/18792965/uiautomations-draginsidewithoptions-has-no-effect-on-ios7-simulator
