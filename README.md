@@ -15,5 +15,3 @@ Usage: ./swipeInWindow.py <windowName> <startX> <startY> <endX> <endY>
 Example: ./swipeInWindow.py "iOS Simulator" 0.5 0.5 0.5 0.8 
 (drags from middle of the window down to approx. 80 percent of the window)
 
-
-swipeInWindow.py
