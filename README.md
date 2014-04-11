@@ -1,7 +1,7 @@
 swipeInWindow.py
 ================
 
-A silly little python script that will allows swiping within an OSX window using mouse events and Applescript. 
+A silly little python script that allows swiping within an OSX window using mouse events and Applescript. 
 
 It accomplishes this by moving the window to (0,0) and bringing it to the foreground using Applescript. Then calculates 
 the coordinates to swipe using the window size and relative coordinates. Then it uses python Quartz bindings to send mouse events 
