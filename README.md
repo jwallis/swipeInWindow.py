@@ -14,8 +14,13 @@ Usage
 
 Swipe within an OSX window. You must specify relative, not absolute, coordinates. 
 
-Usage: ./swipeInWindow.py <windowName> <startX> <startY> <endX> <endY> 
+Usage: 
 
-Example: ./swipeInWindow.py "iOS Simulator" 0.5 0.5 0.5 0.8 
+./swipeInWindow.py <windowName> <startX> <startY> <endX> <endY> 
+
+Example: 
+
+./swipeInWindow.py "iOS Simulator" 0.5 0.5 0.5 0.8 
+
 (drags from middle of the window down to approx. 80 percent of the window)
 
