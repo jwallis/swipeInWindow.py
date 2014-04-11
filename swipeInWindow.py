@@ -67,7 +67,7 @@ def activateWindow(windowName):
     cmd="""
 osascript<<END
     tell application "System Events" to tell application process "%s"
-        activate
+        set frontmost to true 
     end tell
 """ % windowName
     os.system(cmd)    
