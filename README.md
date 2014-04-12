@@ -25,7 +25,7 @@ the percentage of the screen relative to the upper left corner.
 
 Usage:
 
-    ./swipeInWindow.py \<windowName\> \<startX\> \<startY\> \<endX\> \<endY\>
+    ./swipeInWindow.py <windowName> <startX> <startY> <endX> <endY>
 
 Example:
 (drags from middle of the window down to approx. 80 percent of the window)
